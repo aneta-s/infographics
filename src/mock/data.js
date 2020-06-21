@@ -4,7 +4,7 @@ import uuidv1 from 'uuid/v1';
 export const headData = {
   title: 'Aneta Stojanowska | Frontend Web Developer', // e.g: 'Name | Developer'
   lang: 'nl, en, pl', // e.g: en, es, fr, jp
-  description: 'Welcome to my website', // e.g: Welcome to my website
+  description: `With my Full Stack Developer education I'm now Frontend Web Developer, open source contributor and blogger. I build digital products with less code and make them user friendly. My ambition is to make the client happy with a fast and bug free products. Have a product that could use some frontend help? Have a question? Git in touch!`, // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -31,7 +31,7 @@ export const projectsData = [
     img: 'react.jpg',
     title: 'React app Robofriends from scratch.',
     info: `Although lightweight, the Robofriends application is making use of ReactJS library. This application generates a list of users from an API. The features include filtering users, search box, scroll bar, loading time, error boundary message and a customized logo.`,
-    info2: 'Technologies used: React.js, RESTful API, Git, Visual Studio Code, NPM.',
+    info2: 'Technologies used: React.js, FetchAPI, JSON, Git, Visual Studio Code, NPM.',
     url: 'https://aneta-s.github.io/robofriends/',
     repo: 'https://github.com/aneta-s/robofriends', // if no repo, the button will not show up
   },
