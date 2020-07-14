@@ -31,7 +31,7 @@ export const projectsData = [
     img: 'react.jpg',
     title: 'React app Robofriends from scratch.',
     info: `Although lightweight, the Robofriends application is making use of ReactJS library. This application generates a list of users from an API. The features include filtering users, search box, scroll bar, loading time, error boundary message and a customized logo.`,
-    info2: 'Technologies used: React.js, FetchAPI, JSON, Git, Visual Studio Code, NPM.',
+    info2: 'Technologies used: React.js, RESTful API, JSON, Git, Visual Studio Code, NPM.',
     url: 'https://aneta-s.github.io/robofriends/',
     repo: 'https://github.com/aneta-s/robofriends', // if no repo, the button will not show up
   },
@@ -43,6 +43,15 @@ export const projectsData = [
     info2: 'Technologies used: JavaScript, Bootstrap, HTML, CSS3.',
     url: 'https://aneta-s.github.io/gradient/',
     repo: 'https://github.com/aneta-s/gradient', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'smart.jpg',
+    title: 'Smart Brain',
+    info: `A face detection software. Equipped with user authentication and a ranking system, a full-stack image recognition app that uses a subset of artificial intelligence (AI) with Machine Learning and Clarifai API`,
+    info2: `Technologies used: React.js, Node, JSX, RESTful API, VSC, NPM, Git, Express, Postgress, ClarifaiAPI`,
+    url: 'https://aneta-s.github.io/face-recognition-brain/',
+    repo: 'https://github.com/aneta-s/face-recognition-brain', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
