@@ -65,7 +65,7 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'project.jpg',
-    title: 'UX / UI related cases I made including Data Visualisation.',
+    title: 'UX / UI related cases I made including Data Visualization.',
     info: `In my UX / UI portfolio I show how I, as a designer, trade professionally in real-life situations. The material is always presented against the background of the situation in which that material played a role.`,
     info2: `Tools & Methodologies used: Sketch, Photoshop, Illustrator, Figma, Sketching.`,
     url: `https://drive.google.com/file/d/1312O0BkkBaJV3oZOxJ7P_fiCH6tBX2lM/view`,
