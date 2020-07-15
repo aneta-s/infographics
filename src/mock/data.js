@@ -64,7 +64,7 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
+    img: 'ux.jpg',
     title: 'UX / UI related cases I made including Data Visualization.',
     info: `In my UX / UI portfolio I show how I, as a designer, trade professionally in real-life situations. The material is always presented against the background of the situation in which that material played a role.`,
     info2: `Tools & Methodologies used: Sketch, Photoshop, Illustrator, Figma, Sketching.`,
@@ -75,7 +75,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: `Strives to work in teams with other developers and find efficient solutions for customers with complex needs. Let’s do something amazing.`,
+  cta: `Strives to work in teams with other experts and find efficient solutions for customers with complex needs. Let’s do something amazing.`,
   btn: 'Contact',
   email: 'a.stojanowska23@gmail.com',
 };
