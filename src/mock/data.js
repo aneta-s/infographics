@@ -47,9 +47,9 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'smart.jpg',
-    title: 'Smart Brain',
+    title: 'Smart Brain.',
     info: `A face detection software. Equipped with user authentication and a ranking system, a full-stack image recognition app that uses a subset of artificial intelligence (AI) with Machine Learning and Clarifai API`,
-    info2: `Technologies used: React.js, Node, JSX, RESTful API, VSC, NPM, Git, Express, Postgress, ClarifaiAPI`,
+    info2: `Technologies used: React.js, Node, JSX, RESTful API, VSC, NPM, Git, Express, Postgress, ClarifaiAPI.`,
     url: 'https://aneta-s.github.io/face-recognition-brain/',
     repo: 'https://github.com/aneta-s/face-recognition-brain', // if no repo, the button will not show up
   },
@@ -61,6 +61,15 @@ export const projectsData = [
     info2: 'Technologies used: JavaScript, Bootstrap 4, SCSS, HTML.',
     url: 'https://aneta-s.github.io/startbootstrap-resume/',
     repo: 'https://github.com/aneta-s/startbootstrap-resume', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'project.jpg',
+    title: 'UX / UI related cases I made including Data Visualisation.',
+    info: `In my UX / UI portfolio I show how I, as a designer, trade professionally in real-life situations. The material is always presented against the background of the situation in which that material played a role.`,
+    info2: `Tools & Methodologies used: Sketch, Photoshop, Illustrator, Figma, Sketching.`,
+    url: `https://drive.google.com/file/d/1312O0BkkBaJV3oZOxJ7P_fiCH6tBX2lM/view`,
+    repo: ``, // if no repo, the button will not show up
   },
 ];
 
