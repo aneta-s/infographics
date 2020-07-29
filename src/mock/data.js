@@ -37,21 +37,21 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
+    img: 'smart.jpg',
+    title: 'Smart Brain.',
+    info: `A face detection software. Equipped with user authentication and a ranking system, a full-stack image recognition app that uses a subset of artificial intelligence (AI) with Machine Learning and Clarifai API. The front-end part of this project is finished. Currently, working on the back-end part of this project and will be put in production soon.`,
+    info2: `Technologies used: React.js, Node, JSX, RESTful API, VSC, NPM, Git, Express, Postgress, ClarifaiAPI.`,
+    url: 'https://aneta-s.github.io/recognition-app/',
+    repo: 'https://github.com/aneta-s/recognition-app', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'generator.jpg',
     title: 'Gradient generator in JavaScript.',
     info: `This gradient generator is not a full website, but rather an online tool that generates gradient backgrounds in JavaScript. The user uses buttons to blend two colors for a customized rainbow effect. It also generates a random backgrounds, using two random numbers for the color inputs.`,
     info2: 'Technologies used: JavaScript, Bootstrap, HTML, CSS3.',
     url: 'https://aneta-s.github.io/gradient/',
     repo: 'https://github.com/aneta-s/gradient', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'smart.jpg',
-    title: 'Smart Brain.',
-    info: `A face detection software. Equipped with user authentication and a ranking system, a full-stack image recognition app that uses a subset of artificial intelligence (AI) with Machine Learning and Clarifai API`,
-    info2: `Technologies used: React.js, Node, JSX, RESTful API, VSC, NPM, Git, Express, Postgress, ClarifaiAPI.`,
-    url: 'https://aneta-s.github.io/face-recognition-brain/',
-    repo: 'https://github.com/aneta-s/face-recognition-brain', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
