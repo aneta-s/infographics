@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: `Energetic and enthusiastic designer as well as a web developer with knowledge of Web and Mobile design, web development and UX/UI the latest trends in the industry. Able to build a beautifully designed web and mobile projects. Functions as a bridge between the various disciplines, monitors Agile principles and ensures that both design and frontend work smoothly towards the same goals.`,
+  paragraphOne: `Energetic and enthusiastic designer as well as a web developer with knowledge of Web and Mobile design, web development and UX/UI latest trends in the industry. Able to build a beautifully designed web and mobile projects. Functions as a bridge between the various disciplines, monitors Agile principles and ensures that both design and frontend work smoothly towards the same goals.`,
   paragraphTwo: `I’m an open source contributor and enjoy participating in design sprints. In my spare time I write blog posts for the web development community to help other designers and developers understand a topic.`,
   paragraphThree: ``,
   resume: 'https://medium.com/@anetastojanowska', // if no resume, the button will not show up
@@ -28,12 +28,12 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'react.jpg',
+    img: 'doorgaan.jpg',
     title: 'Web and Mobile web application from the scratch.',
     info: `A clean, simple and responsive event organizer featured a self service agenda, adding events, mailings by email and Facebook integration. Agenda sections to feature promoter dashboard, event listing, about page, registration page.`,
     info2: 'Technologies used: Sketch, HTML5, CSS3, Git, Visual Studio Code, NPM',
     url: 'https://aneta-s.github.io/doorgaan.info/events-list.html',
-    repo: 'https://drive.google.com/file/d/1Zfsfqzfa3oL6zilKcyFe7NU47IeTJVD7/view?usp=sharing', // if no repo, the button will not show up
+    repo: 'https://drive.google.com/file/d/12YqTCVRhJYhabD32yZvUEp6SjKFzCsqW/view?usp=sharing', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
@@ -68,7 +68,7 @@ export const projectsData = [
     title: 'UX / UI related cases I made including Data Visualization.',
     info: `In my UX / UI portfolio I show how I, as a designer, trade professionally in real-life situations. The material is always presented against the background of the situation in which that material played a role.`,
     info2: `Tools & Methodologies used: Sketch, Photoshop, Illustrator, Figma, Sketching.`,
-    url: `https://drive.google.com/file/d/1312O0BkkBaJV3oZOxJ7P_fiCH6tBX2lM/view`,
+    url: `https://drive.google.com/file/d/1BJqUlFDWRgfqJgsR-5Md5UG0rH94x2bk/view?usp=sharing`,
     repo: ``, // if no repo, the button will not show up
   },
 ];
