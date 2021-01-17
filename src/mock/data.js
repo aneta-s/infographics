@@ -2,24 +2,24 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: 'Aneta Stojanowska | Frontend Web Developer', // e.g: 'Name | Developer'
+  title: 'Aneta Stojanowska | Web & Mobile Designer', // e.g: 'Name | Developer'
   lang: 'nl, en, pl', // e.g: en, es, fr, jp
-  description: `With my Full Stack Developer education I'm now Frontend Web Developer, open source contributor and blogger. I build digital products with less code and make them user friendly. My ambition is to make the client happy with a fast and bug free products. Have a product that could use some frontend help? Have a question? Git in touch!`, // e.g: Welcome to my website
+  description: `I'm a designer as well as a web developer and build beautifully designed web and mobile projects. With UX/UI best practices I use the latest trends in the industry. I'm open source contributor and blogger. My ambition is to make the client happy with a fast and bug free products. Have a product that could use some design and frontend help? Have a question? Git in touch!`, // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: 'Hello, my name is',
   name: 'Aneta Stojanowska',
-  subtitle: `I'm a Frontend Web Developer.`,
+  subtitle: `I'm a Web & Mobile Designer.`,
   cta: 'Find more',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: `Energetic and enthusiastic Frontend Web Developer with knowledge of design, frontend and backend and experience with database technology and UX issues. Able to build a working and professional web application. Functions as a bridge between the various disciplines, monitors agile principles and ensures that both backend and frontend work smoothly towards the same goals.`,
-  paragraphTwo: `I’m an open source contributor and enjoy participating in hackathons. In my spare time I write blog posts for the development community to help other developers understand a topic and their code.`,
+  paragraphOne: `Energetic and enthusiastic designer as well as a web developer with knowledge of Web and Mobile design, web development and UX/UI the latest trends in the industry. Able to build a beautifully designed web and mobile projects. Functions as a bridge between the various disciplines, monitors Agile principles and ensures that both design and frontend work smoothly towards the same goals.`,
+  paragraphTwo: `I’m an open source contributor and enjoy participating in design sprints. In my spare time I write blog posts for the web development community to help other designers and developers understand a topic.`,
   paragraphThree: ``,
   resume: 'https://medium.com/@anetastojanowska', // if no resume, the button will not show up
 };
@@ -29,17 +29,17 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'react.jpg',
-    title: 'React app Robofriends from scratch.',
-    info: `Although lightweight, the Robofriends application is making use of ReactJS library. This application generates a list of users from an API. The features include filtering users, search box, scroll bar, loading time, error boundary message and a customized logo.`,
-    info2: 'Technologies used: React.js, RESTful API, JSON, Git, Visual Studio Code, NPM.',
-    url: 'https://aneta-s.github.io/robofriends/',
-    repo: 'https://github.com/aneta-s/robofriends', // if no repo, the button will not show up
+    title: 'Web and Mobile web application from the scratch.',
+    info: `A clean, simple and responsive event organizer featured a self service agenda, adding events, mailings by email and Facebook integration. Agenda sections to feature promoter dashboard, event listing, about page, registration page.`,
+    info2: 'Technologies used: Sketch, HTML5, CSS3, Git, Visual Studio Code, NPM',
+    url: 'https://aneta-s.github.io/doorgaan.info/events-list.html',
+    repo: 'https://drive.google.com/file/d/1Zfsfqzfa3oL6zilKcyFe7NU47IeTJVD7/view?usp=sharing', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
     img: 'smart.jpg',
-    title: 'Smart Brain.',
-    info: `A face detection software. Equipped with user authentication and a ranking system, a full-stack image recognition app that uses a subset of artificial intelligence (AI) with Machine Learning and Clarifai API. The front-end part of this project is finished. Currently, working on the back-end part of this project and will be put in production soon.`,
+    title: 'Responsive face detection app from the scratch.',
+    info: `Smart Brain is a face detection software. Equipped with user authentication and a ranking system, a full-stack image recognition app that uses a subset of artificial intelligence (AI) with Machine Learning and Clarifai API.`,
     info2: `Technologies used: React.js, Node, JSX, RESTful API, VSC, NPM, Git, Express, Postgress, ClarifaiAPI.`,
     url: 'https://aneta-s.github.io/recognition-app/',
     repo: 'https://github.com/aneta-s/recognition-app', // if no repo, the button will not show up
@@ -55,12 +55,12 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'resume.jpg',
-    title: 'Resume/CV website in Bootstrap 4.',
-    info: `A clean, simple and open source resume/CV landing page, featuring fixed side navigation with scrolling page anchors. Resume sections contain work experience, education, skills and stylish icons.`,
-    info2: 'Technologies used: JavaScript, Bootstrap 4, SCSS, HTML.',
-    url: 'https://aneta-s.github.io/startbootstrap-resume/',
-    repo: 'https://github.com/aneta-s/startbootstrap-resume', // if no repo, the button will not show up
+    img: 'react.jpg',
+    title: 'React app Robofriends from scratch.',
+    info: `Although lightweight, the Robofriends application is making use of ReactJS library. This application generates a list of users from an API. The features include filtering users, search box, scroll bar, loading time, error boundary message and a customized logo.`,
+    info2: 'Technologies used: React.js, RESTful API, JSON, Git, Visual Studio Code, NPM.',
+    url: 'https://aneta-s.github.io/robofriends/',
+    repo: 'https://github.com/aneta-s/robofriends', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),

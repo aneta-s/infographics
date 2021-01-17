@@ -5,9 +5,10 @@ import { headData } from '../mock/data';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
 
+/* export * from '../components/Seo'; */
+
 export default () => {
   const { title, lang, description } = headData;
-
   return (
     <>
       <Helmet>
