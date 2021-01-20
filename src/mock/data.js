@@ -17,8 +17,8 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: `Professional and enthusiastic designer and web developer with knowledge of Web and Mobile design, Web development and UX/UI. Able to create beautifully designed web and mobile interfaces that serves countless people in many different roles, but which all fit consistently in platforms. 
+  img: 'profile1.jpg',
+  paragraphOne: `Professional and enthusiastic designer and web developer with knowledge of Web and Mobile design, Web development and UX/UI. Able to create beautifully designed web and mobile interfaces that serves countless people in many different rolegit add .s, but which all fit consistently in platforms. 
   Uses different facets and tools of design to create and execute a solution that solves for a user’s experience deficiencies.`,
   paragraphTwo: `I’m a problem solver and enjoy participating in Design Sprints. In my spare time I write blog posts for the web development community to help other designers and developers understand a topic.`,
   paragraphThree: ``,
