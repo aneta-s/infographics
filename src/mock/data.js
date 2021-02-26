@@ -2,25 +2,25 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: 'Aneta Stojanowska | Web & Mobile Designer', // e.g: 'Name | Developer'
+  title: 'Aneta Stojanowska | Product Designer', // e.g: 'Name | Developer'
   lang: 'nl, en, pl', // e.g: en, es, fr, jp
-  description: `I'm a designer and a web developer and I build beautifully designed web and mobile projects. With UX/UI best practices I use the latest trends in the industry. I'm a problem solver and blogger. My ambition is to make the client happy with a fast and stable digital products. Could you use some help on design and frontend? Or do you have any questions? Git in touch!`, // e.g: Welcome to my website
+  description: `I'm a Product Designer and I build beautifully designed web and mobile projects. With UX/UI practices I use the latest trends in the industry. I'm a problem solver and blogger. My ambition is to make the client happy with a user-friendly digital products. Could you use some help on design and frontend? Or do you have any questions? Git in touch!`, // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: 'Hello, my name is',
-  name: 'Aneta Stojanowska',
-  subtitle: `I'm a Web & Mobile Designer.`,
+  title: `HELLO - I'm Aneta,`,
+  name: 'a Product Designer',
+  subtitle: `based in Amsterdam, the Netherlands.`,
   cta: 'My projects',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile1.jpg',
-  paragraphOne: `Professional and enthusiastic designer and web developer with knowledge of Web and Mobile design, Web development and UX/UI. Able to create beautifully designed web and mobile interfaces that serves countless people in many different rolegit add .s, but which all fit consistently in platforms. 
+  paragraphOne: `Professional and enthusiastic Product Designer with knowledge of Web and Mobile design, Web development and UX/UI. Able to create beautifully designed web and mobile interfaces that serves countless people in many different roles, but which all fit consistently in platforms. 
   Uses different facets and tools of design to create and execute a solution that solves for a user’s experience deficiencies.`,
-  paragraphTwo: `I’m a problem solver and enjoy participating in Design Sprints. In my spare time I write blog posts for the web development community to help other designers and developers understand a topic.`,
+  paragraphTwo: `I’m a problem solver and enjoy participating in Design Sprints. In my spare time I write blog posts for the frontend community to help other designers understand a topic.`,
   paragraphThree: ``,
   resume: 'https://medium.com/@anetastojanowska', // if no resume, the button will not show up
 };
@@ -29,12 +29,21 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'doorgaan.jpg',
-    title: `Web and Mobile event organizer for event visitors and promoters, designed from scratch.`,
-    info: `A clean, simple and responsive event organizer featuring a self service agenda, adding events, mailings by e-mail and Facebook integration. Agenda sections to feature promoter dashboard, event listing, about page, registration page.`,
-    info2: 'Technologies used: Sketch, HTML5, CSS3, Git, Visual Studio Code, NPM',
-    url: 'https://aneta-s.github.io/doorgaan.info/events-list.html',
+    img: 'habitual.png',
+    title: `Web and Mobile e-commerce website redesign for Habitual.`,
+    info: `A recent survey found that Habitual’s UX ranks highest among > 45 years old. The problem I’m tasked with solving on this project is to redesign their website and make it more appealing for younger users > 25 years old.`,
+    info2: `Skills performed: Project Management, Modern Tools, Goal Conversion, Graphic Design, UX`,
+    url: 'habitual_case.png',
     repo: 'https://drive.google.com/file/d/1itA0IYy72MeSaoyV8tYHKti9FEIAGFBS/view?usp=sharing', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'uwv.png',
+    title: `Web and Mobile complex homepage redesign for UWV`,
+    info: `Our website got negative reviews because users were frustrated with the digital services on the website visited by almost million visitors daily. Based on the content of the reviews, I hypothesized that users were overwhelmed by the content and the website’s cluttered appearance.`,
+    info2: `Skills performed: Platform Development, Modern Tools, Goal Conversion, UX`,
+    url: 'https://aneta-s.github.io/recognition-app/',
+    repo: 'https://github.com/aneta-s/recognition-app',
   },
   {
     id: uuidv1(),
