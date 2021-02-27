@@ -34,7 +34,7 @@ export const projectsData = [
     info: `A recent survey found that Habitual’s UX ranks highest among > 45 years old. The problem I’m tasked with solving on this project is to redesign their website and make it more appealing for younger users > 25 years old.`,
     info2: `Skills performed: Project Management, Modern Tools, Goal Conversion, Graphic Design, UX`,
     url: 'https://github.com/aneta-s/gatsby-simplefolio/blob/master/src/habitual_case.pdf',
-    repo: 'https://drive.google.com/file/d/1itA0IYy72MeSaoyV8tYHKti9FEIAGFBS/view?usp=sharing', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
@@ -43,7 +43,7 @@ export const projectsData = [
     info: `Our website got negative reviews because users were frustrated with the digital services on the website visited by almost million visitors daily. Based on the content of the reviews, I hypothesized that users were overwhelmed by the content and the website’s cluttered appearance.`,
     info2: `Skills performed: Platform Development, Modern Tools, Goal Conversion, UX`,
     url: 'https://github.com/aneta-s/gatsby-simplefolio/blob/master/src/uwv_case.pdf',
-    repo: 'https://github.com/aneta-s/recognition-app',
+    repo: '',
   },
   {
     id: uuidv1(),
@@ -78,7 +78,7 @@ export const projectsData = [
     title: 'Graphic Design and UX / UI related cases I made including Data Visualization.',
     info: `In my UX / UI portfolio I show how I, as a designer, trade professionally in real-life situations. The material is always presented against the background of the situation in which that material played a role.`,
     info2: `Tools & Methodologies used: Sketch, Photoshop, Illustrator, Figma, Sketching, GitHub, Git, online resources for A/B testing.`,
-    url: `https://drive.google.com/file/d/1QQlpMVzVYqgOI2joqRMmLNcjiNkJB3Ph/view?usp=sharing`,
+    url: ``,
     repo: ``, // if no repo, the button will not show up
   },
 ];
